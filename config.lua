@@ -10,7 +10,7 @@ DREAM_TRANSLATE = {} -- DO NOT MODIFY THIS LINE OF CODE
 Config.LANGUAGE = 'en' -- 'en' | 'es | 'fr' | 'et'
 
 Config.NOTIFY    = 'qb' -- 'qb' | 'ox' | 'esx' | 'esx-new' | 'okok' | 'mythic' | 'chat'
-Config.TARGET    = 'ox' -- 'ox' | 'qb-target'
+Config.TARGET    = 'qb-target' -- 'ox' | 'qb-target'
 Config.FRAMEWORK = 'qb' -- 'qb' | 'esx' | 'esx-old'
 -- COMMENT OUT GET_CORE if using 'esx' or 'esx-old'
 -- optional to fill in, if you use qb-core this is your getCoreObject function you use.
@@ -19,7 +19,7 @@ Config.GET_CORE  = exports['qb-core']:GetCoreObject()
 Config.DEBUG = false -- debug target boxes
 
 -- Whether or not to only allow a certain job to do postal deliveries
-Config.IS_WHITELISTED_TO_JOB = false
+Config.IS_WHITELISTED_TO_JOB = true
 -- IF we are whitelisting to a job, whats the job code name?
 Config.WHITELISTED_JOB_TITLE = 'postal'
 
